@@ -1,32 +1,82 @@
 body {
-    background-color: rgba(218, 131, 24, 0.584);
-    margin: 0;    
-    font-family: 'Anton', sans-serif;
-}
-
-.main-container {
-    border: 1px solid red;  
-    height: 100%;   
-    display: flex;
-    flex-direction: column;
+    width: 850px;
+    margin: 0 auto;
 
 }
 
 main {
-    border: 10px Solid gold;
-    height: 50%;
+    
+    height: 450px;
+    margin: 0 auto;
+    background-image: url(./nasagalaxy.jpg); 
+    color: white;   
+    font-family: 'Anton', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
 }
 
 section {
-    border: 10px Solid rgb(162, 54, 20);
-    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    margin: 0 auto;
+    height: 405px;
+    background-color: rgb(224, 222, 222);
+    margin-top: 20px;
+
 }
 
-.img {
+article {
+    width: 270px;
+    height: 374px;
+    background-color: rgb(224, 222, 222);
+    font-family: 'Anton', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    display: flex; 
+    justify-content: flex-start;
+    margin-top: 25px;
+    font-weight: bolder;
+    font-size:larger;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 2px;
+    align-items: flex-start;
+    align-content: center;
+}
+
+
+p {
+    font-size: small;
+    line-height: 20%
+}
+
+button {
+    background-color: rgb(84, 70, 70);
+    color: white;
+    height: 40px;
+    width: 100px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+
+#Message1 {
+    height: 100px;
+    width: 200px
+}
+
+label {
+    font-size: small;
+}
+
+#Name1 {
+    height: 20px;
+    width: 200px
   
-}
-
-h1 {
-    fa'Anton', sans-serif;
-
 }
